@@ -1,36 +1,218 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📄 ResumeForge
 
-## Getting Started
+**ResumeForge** is a modern web-based resume builder that enables users to create professional, structured resumes through an intuitive interface. The platform allows users to input their personal, academic, and professional details and instantly generate a well-formatted resume ready for use in job applications.
 
-First, run the development server:
+This project focuses on simplifying resume creation for students and professionals by providing a clean interface and structured resume layout.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+# 🚀 Project Overview
+
+Creating a professional resume can often be time-consuming and confusing for students and early-career professionals. ResumeForge solves this problem by providing a structured platform where users can easily input their details and generate a polished resume.
+
+The system automatically organizes the information into a clear and professional format, allowing users to focus on the content rather than formatting.
+
+---
+
+# ✨ Features
+
+## 🧑 Personal Information Management
+
+Users can enter and manage essential personal details including:
+
+* Full Name
+* Email Address
+* Contact Information
+* Professional Summary
+
+---
+
+## 🎓 Education Section
+
+Users can add their academic background including:
+
+* Degree
+* Institution
+* Graduation Year
+* Academic achievements
+
+---
+
+## 💼 Experience Management
+
+Users can include professional or internship experience such as:
+
+* Job title
+* Organization
+* Work duration
+* Responsibilities and achievements
+
+---
+
+## 🛠 Skills Section
+
+Users can list their technical and professional skills in a structured format, helping recruiters quickly understand their expertise.
+
+---
+
+## 📂 Projects Section
+
+Users can showcase their academic or personal projects with:
+
+* Project title
+* Description
+* Technologies used
+* Key achievements
+
+---
+
+## ⚡ Real-Time Resume Preview
+
+As users enter their information, the resume updates dynamically, allowing them to instantly visualize how their final resume will appear.
+
+---
+
+## 🧾 Structured Resume Layout
+
+The application automatically formats the entered information into a clean and professional resume layout suitable for job applications.
+
+---
+
+# 🛠 Tech Stack
+
+| Category        | Technology                   |
+| --------------- | ---------------------------- |
+| Framework       | Next.js                      |
+| Language        | TypeScript                   |
+| Runtime         | Node.js                      |
+| Frontend        | React                        |
+| Styling         | CSS / Tailwind CSS (if used) |
+| Package Manager | npm                          |
+
+---
+
+# 🏗 System Architecture
+
+```
+User Browser
+      │
+      ▼
+Next.js Frontend Application
+      │
+      ▼
+Application Logic & Form Handling
+      │
+      ▼
+Resume Rendering Engine
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+ResumeForge
+│
+├── app
+│   ├── layout.tsx
+│   ├── page.tsx
+│
+├── components
+│   ├── ResumeForm.tsx
+│   ├── ResumePreview.tsx
+│
+├── public
+│
+├── styles
+│
+├── package.json
+│
+└── README.md
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 💻 Local Development Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Follow these steps to run the project locally.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1️⃣ Clone the Repository
 
-## Deploy on Vercel
+```
+git clone https://github.com/Shriya-Dwivedi/resume-forge.git
+cd resume-forge
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+---
+
+### 3️⃣ Run Development Server
+
+```
+npm run dev
+```
+
+---
+
+### 4️⃣ Open in Browser
+
+Open the following URL in your browser:
+
+```
+http://localhost:3000
+```
+
+The application will start in development mode and automatically update when you make changes.
+
+---
+
+# 📊 Future Improvements
+
+Possible enhancements for the project include:
+
+* Export resume as **PDF**
+* Multiple **resume templates**
+* **AI-based resume suggestions**
+* Resume **ATS compatibility check**
+* Cloud storage for resumes
+* Resume sharing via **public links**
+
+---
+
+# 🎯 Learning Outcomes
+
+This project helped strengthen knowledge in:
+
+* Next.js application development
+* Component-based UI design
+* Form state management
+* Responsive web development
+* Structuring production-ready web applications
+
+---
+
+# 👩‍💻 Author
+
+**Shriya Dwivedi**
+B.Tech Computer Science (Data Science)
+Amity University, Noida
+
+GitHub
+https://github.com/Shriya-Dwivedi
+
+LinkedIn
+https://linkedin.com/in/shriya-dwivedi-a727542b2
+
+---
+
+# 📜 License
+
+This project is developed for **educational and portfolio purposes**.
+
